@@ -34,4 +34,21 @@
 Thumbs.db
 .vscode/
 .idea/
+############################
+## Cadence Maestro ? keep setup, drop runtime trash
+#############################
 
+# Ignore Maestro runtime / UI state
+**/maestro/active.state
+
+# Ignore run history (archives, logs)
+**/maestro/history/
+
+# Ignore run results databases
+**/maestro/results/
+
+# Ignore Explorer / message DB junk anywhere
+*.msg.db
+*.rdb
+*.sdb-journal
+*.crash.handle.*
