@@ -1,2 +1,37 @@
+############################
+# Cadence Virtuoso ? KEEP Maestro
+############################
+
+# Log files
 *.log
-*.log.cdslck
+*.log.*
+*.out
+*.err
+
+# Lock files (safe to ignore)
+*.cdslck
+*.cdslck.*
+
+# Temporary / backup files
+*~
+*.bak
+*.sav
+*.tmp
+
+############################
+# Virtuoso session / GUI state
+############################
+
+.CDS*
+.ho_session*
+*.history
+
+############################
+# OS / editor noise
+############################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
