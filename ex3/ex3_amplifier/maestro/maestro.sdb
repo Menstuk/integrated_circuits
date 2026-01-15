@@ -35,13 +35,16 @@
 						<value>211</value>
 					</var>
 					<var>W_IN
-						<value>130u</value>
+						<value>130u * FACTOR</value>
 					</var>
 					<var>L_IN
-						<value>200n</value>
+						<value>200n  * FACTOR</value>
 					</var>
 					<var>W3
 						<value>213.4u</value>
+					</var>
+					<var>FACTOR
+						<value>1</value>
 					</var>
 				</vars>
 			</test>
