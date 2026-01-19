@@ -5,7 +5,56 @@
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
-		<sharedvarinfo></sharedvarinfo>
+		<sharedvarinfo>
+			<var>wireopt
+				<tags></tags>
+			</var>
+			<var>W_IN
+				<tags></tags>
+			</var>
+			<var>L_IN
+				<tags></tags>
+			</var>
+			<var>W3
+				<tags></tags>
+			</var>
+			<var>L_INCAS
+				<tags></tags>
+			</var>
+			<var>W_INCAS
+				<tags></tags>
+			</var>
+			<var>VOUTDC
+				<tags></tags>
+			</var>
+			<var>V_GATE
+				<tags></tags>
+			</var>
+			<var>VTH_EST
+				<tags></tags>
+			</var>
+			<var>VIN_DRAIN
+				<tags></tags>
+			</var>
+			<var>VGATE_BIAS
+				<tags></tags>
+			</var>
+			<var>W_BIAS
+				<tags></tags>
+			</var>
+			<var>L_BIAS
+				<tags></tags>
+			</var>
+			<var>LLOAD
+				<tags></tags>
+			</var>
+			<var>WLOAD
+				<tags></tags>
+			</var>
+			<var>FACTOR
+				<tags></tags>
+			</var>
+		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
 			<test>ex3_ex3_amplifier_1
@@ -31,22 +80,56 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>wireopt
+					<var enabled="1">wireopt
 						<value>211</value>
 					</var>
-					<var>W_IN
-						<value>130u * FACTOR</value>
+					<var enabled="1">W_IN
+						<value>729.23u</value>
 					</var>
-					<var>L_IN
-						<value>200n  * FACTOR</value>
+					<var enabled="1">L_IN
+						<value>500n</value>
 					</var>
-					<var>W3
-						<value>213.4u</value>
+					<var enabled="1">W3
+						<value>25.3u</value>
 					</var>
-					<var>FACTOR
-						<value>1</value>
+					<var enabled="1">L_INCAS
+						<value>9u</value>
+					</var>
+					<var enabled="1">W_INCAS
+						<value>1m</value>
+					</var>
+					<var enabled="1">VOUTDC
+						<value>0</value>
+					</var>
+					<var enabled="1">V_GATE
+						<value>VIN_DRAIN + VTH_EST + 50e-3</value>
+					</var>
+					<var enabled="1">VTH_EST
+						<value>181.9m</value>
+					</var>
+					<var enabled="1">VIN_DRAIN
+						<value>0</value>
+					</var>
+					<var enabled="1">VGATE_BIAS
+						<value>-0.5</value>
+					</var>
+					<var enabled="1">W_BIAS
+						<value>59.8u</value>
+					</var>
+					<var enabled="1">L_BIAS
+						<value>2u</value>
+					</var>
+					<var enabled="1">LLOAD
+						<value>500n</value>
+					</var>
+					<var enabled="1">WLOAD
+						<value>9u</value>
+					</var>
+					<var enabled="1">FACTOR
+						<value>10</value>
 					</var>
 				</vars>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -98,6 +181,9 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
 	</active>
 	<history>History
 	</history>
