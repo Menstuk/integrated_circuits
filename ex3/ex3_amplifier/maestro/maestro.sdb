@@ -84,7 +84,7 @@
 						<value>211</value>
 					</var>
 					<var enabled="1">W_IN
-						<value>729.23u</value>
+						<value>820u</value>
 					</var>
 					<var enabled="1">L_IN
 						<value>500n</value>
@@ -93,19 +93,19 @@
 						<value>25.3u</value>
 					</var>
 					<var enabled="1">L_INCAS
-						<value>9u</value>
+						<value>500n</value>
 					</var>
 					<var enabled="1">W_INCAS
-						<value>1m</value>
+						<value>400u</value>
 					</var>
 					<var enabled="1">VOUTDC
-						<value>0</value>
+						<value>0.3</value>
 					</var>
 					<var enabled="1">V_GATE
 						<value>VIN_DRAIN + VTH_EST + 50e-3</value>
 					</var>
 					<var enabled="1">VTH_EST
-						<value>181.9m</value>
+						<value>285.2m</value>
 					</var>
 					<var enabled="1">VIN_DRAIN
 						<value>0</value>
@@ -114,19 +114,19 @@
 						<value>-0.5</value>
 					</var>
 					<var enabled="1">W_BIAS
-						<value>59.8u</value>
+						<value>218.4u</value>
 					</var>
 					<var enabled="1">L_BIAS
-						<value>2u</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">LLOAD
-						<value>500n</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">WLOAD
-						<value>9u</value>
+						<value>248.6u</value>
 					</var>
 					<var enabled="1">FACTOR
-						<value>10</value>
+						<value>5</value>
 					</var>
 				</vars>
 				<outputs></outputs>
@@ -145,7 +145,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value>(None)</value>
+				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -157,7 +157,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
