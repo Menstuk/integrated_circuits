@@ -45,12 +45,6 @@
 			<var>L_BIAS
 				<tags></tags>
 			</var>
-			<var>LLOAD
-				<tags></tags>
-			</var>
-			<var>WLOAD
-				<tags></tags>
-			</var>
 			<var>FACTOR
 				<tags></tags>
 			</var>
@@ -83,50 +77,68 @@
 					<var enabled="1">wireopt
 						<value>211</value>
 					</var>
+					<var>VSOURCE_IN
+						<value>325m</value>
+					</var>
 					<var enabled="1">W_IN
-						<value>820u</value>
+						<value>1m</value>
 					</var>
 					<var enabled="1">L_IN
-						<value>500n</value>
+						<value>400n</value>
 					</var>
 					<var enabled="1">W3
-						<value>25.3u</value>
+						<value>811.6u</value>
 					</var>
 					<var enabled="1">L_INCAS
-						<value>500n</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">W_INCAS
 						<value>400u</value>
 					</var>
 					<var enabled="1">VOUTDC
-						<value>0.3</value>
+						<value>0</value>
 					</var>
 					<var enabled="1">V_GATE
-						<value>VIN_DRAIN + VTH_EST + 50e-3</value>
+						<value>VIN_DRAIN + VTH_EST + 20e-3</value>
 					</var>
 					<var enabled="1">VTH_EST
-						<value>285.2m</value>
+						<value>253m</value>
 					</var>
 					<var enabled="1">VIN_DRAIN
-						<value>0</value>
+						<value>-0.3</value>
 					</var>
 					<var enabled="1">VGATE_BIAS
 						<value>-0.5</value>
 					</var>
 					<var enabled="1">W_BIAS
-						<value>218.4u</value>
+						<value>833.1u</value>
 					</var>
 					<var enabled="1">L_BIAS
-						<value>1u</value>
-					</var>
-					<var enabled="1">LLOAD
-						<value>1u</value>
-					</var>
-					<var enabled="1">WLOAD
-						<value>248.6u</value>
+						<value>5u</value>
 					</var>
 					<var enabled="1">FACTOR
-						<value>5</value>
+						<value>10</value>
+					</var>
+					<var>L_LOAD
+						<value>500n</value>
+					</var>
+					<var>W_LOAD
+						<value>14.25u</value>
+					</var>
+					<var>L_BA
+						<value>10u</value>
+					</var>
+					<var>L_BB
+						<value>25u</value>
+					</var>
+					<var>W_BA
+						<value>1m</value>
+					</var>
+					<var>W_BB
+						<value>846.3u</value>
+					</var>
+					<var>V_BIASA
+						<value>-209.48m</value>
 					</var>
 				</vars>
 				<outputs></outputs>
