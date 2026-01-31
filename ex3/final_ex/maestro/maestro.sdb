@@ -6,17 +6,9 @@
 			<corner enabled="1">_default</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
-		<extensions>
-			<extension>Parasitics
-				<callback>_parSetupDBExtensionCB</callback>
-				<iconvalue></iconvalue>
-				<icontype></icontype>
-			</extension>
-		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">ex3_final_ex_1
+			<test>ex3_final_ex_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -25,14 +17,14 @@
 					<option>lib
 						<value>ex3</value>
 					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
 					<option>sim
 						<value>spectre</value>
 					</option>
 					<option>view
 						<value>schematic</value>
-					</option>
-					<option>path
-						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>state
 						<value>active</value>
@@ -42,37 +34,68 @@
 					<var>wireopt
 						<value>211</value>
 					</var>
-					<var>VP
-						<value>1.1427</value>
-					</var>
-					<var>N_mult
-						<value>60</value>
-					</var>
-					<var>WN
-						<value>400n</value>
-					</var>
-					<var>LN
-						<value>400n</value>
-					</var>
-					<var>LP
-						<value>400n</value>
-					</var>
-					<var>WP
-						<value>400n</value>
-					</var>
-					<var>WN_BIAS
-						<value>800n</value>
+					<var>VDD
+						<value>2</value>
 					</var>
 					<var>CL
 						<value>8p</value>
 					</var>
-					<var>V_ERR
-						<value>980m</value>
+					<var>VG2
+						<value>0.8</value>
+					</var>
+					<var>VG4
+						<value>1.5</value>
+					</var>
+					<var>VGIB
+						<value>1.15</value>
+					</var>
+					<var>VIN
+						<value>1</value>
+					</var>
+					<var>VR1
+						<value>1.15</value>
+					</var>
+					<var>W1
+						<value>328u</value>
+					</var>
+					<var>L1
+						<value>400n</value>
+					</var>
+					<var>W2
+						<value>6u</value>
+					</var>
+					<var>L2
+						<value>400n</value>
+					</var>
+					<var>W3
+						<value>77u</value>
+					</var>
+					<var>L3
+						<value>400n</value>
+					</var>
+					<var>W4
+						<value>60u</value>
+					</var>
+					<var>L4
+						<value>400n</value>
+					</var>
+					<var>LIB
+						<value>800n</value>
+					</var>
+					<var>WIB
+						<value>4.67u</value>
 					</var>
 				</vars>
 			</test>
 		</tests>
-		<disabledtests></disabledtests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistscope="all">ex3_final_ex_1</test>
 		</checksasserts>
@@ -114,9 +137,6 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<incrementalsimulationoptions>
-			<incrementalSimulation>0</incrementalSimulation>
-		</incrementalsimulationoptions>
 	</active>
 	<history>History
 	</history>
