@@ -46,13 +46,13 @@
 						<value>200n</value>
 					</var>
 					<var>W6
-						<value>333.4u</value>
+						<value>80u</value>
 					</var>
 					<var>L_LOAD
 						<value>1u</value>
 					</var>
 					<var>W_LOAD
-						<value>258.7u</value>
+						<value>74.56u</value>
 					</var>
 					<var>W_SOURCE
 						<value>11.9u</value>
@@ -86,6 +86,12 @@
 					</var>
 					<var>W_SPECIAL
 						<value>793n</value>
+					</var>
+					<var>R
+						<value>2.4k</value>
+					</var>
+					<var>Cap
+						<value>3p</value>
 					</var>
 				</vars>
 				<outputs>
