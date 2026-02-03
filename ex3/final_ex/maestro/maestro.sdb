@@ -44,13 +44,13 @@
 						<value>400n</value>
 					</var>
 					<var>W2
-						<value>11.1924u</value>
+						<value>11.2116u</value>
 					</var>
 					<var>L2
 						<value>400n</value>
 					</var>
 					<var>W3
-						<value>62u</value>
+						<value>62.899u</value>
 					</var>
 					<var>L3
 						<value>400n</value>
@@ -71,7 +71,7 @@
 						<value>4u</value>
 					</var>
 					<var>W5
-						<value>10u</value>
+						<value>341.791u</value>
 					</var>
 					<var>L6
 						<value>8u</value>
