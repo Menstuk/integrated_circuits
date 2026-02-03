@@ -34,56 +34,53 @@
 					<var>wireopt
 						<value>211</value>
 					</var>
-					<var>VDD
-						<value>2</value>
-					</var>
 					<var>CL
 						<value>8p</value>
 					</var>
-					<var>VG2
-						<value>0.8</value>
-					</var>
-					<var>VG4
-						<value>1.5</value>
-					</var>
-					<var>VGIB
-						<value>1.15</value>
-					</var>
-					<var>VIN
-						<value>1</value>
-					</var>
-					<var>VR1
-						<value>1.15</value>
-					</var>
 					<var>W1
-						<value>328u</value>
+						<value>124u</value>
 					</var>
 					<var>L1
 						<value>400n</value>
 					</var>
 					<var>W2
-						<value>6u</value>
+						<value>11.1924u</value>
 					</var>
 					<var>L2
 						<value>400n</value>
 					</var>
 					<var>W3
-						<value>77u</value>
+						<value>62u</value>
 					</var>
 					<var>L3
 						<value>400n</value>
 					</var>
 					<var>W4
-						<value>60u</value>
+						<value>155.616u</value>
 					</var>
 					<var>L4
-						<value>400n</value>
+						<value>1u</value>
 					</var>
 					<var>LIB
-						<value>800n</value>
+						<value>1u</value>
 					</var>
 					<var>WIB
-						<value>4.67u</value>
+						<value>614.3u</value>
+					</var>
+					<var>L5
+						<value>4u</value>
+					</var>
+					<var>W5
+						<value>10u</value>
+					</var>
+					<var>L6
+						<value>8u</value>
+					</var>
+					<var>W6
+						<value>37.9u</value>
+					</var>
+					<var>CS
+						<value>100p</value>
 					</var>
 				</vars>
 			</test>
@@ -101,7 +98,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value>(None)</value>
+				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -113,7 +110,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -137,6 +134,9 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
 	</active>
 	<history>History
 	</history>
