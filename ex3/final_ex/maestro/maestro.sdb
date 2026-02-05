@@ -38,13 +38,13 @@
 						<value>8p</value>
 					</var>
 					<var>W1
-						<value>124u</value>
+						<value>600u</value>
 					</var>
 					<var>L1
-						<value>400n</value>
+						<value>1u</value>
 					</var>
 					<var>W2
-						<value>11.2116u</value>
+						<value>15.468u</value>
 					</var>
 					<var>L2
 						<value>400n</value>
@@ -61,28 +61,48 @@
 					<var>L4
 						<value>1u</value>
 					</var>
-					<var>LIB
-						<value>1u</value>
+					<var>L0
+						<value>400n</value>
 					</var>
-					<var>WIB
-						<value>614.3u</value>
+					<var>W0
+						<value>474.43u</value>
 					</var>
 					<var>L5
-						<value>4u</value>
+						<value>500n</value>
 					</var>
 					<var>W5
-						<value>341.791u</value>
+						<value>31.87u</value>
 					</var>
 					<var>L6
-						<value>8u</value>
+						<value>2u</value>
 					</var>
 					<var>W6
-						<value>37.9u</value>
+						<value>40u</value>
 					</var>
 					<var>CS
-						<value>100p</value>
+						<value>500p</value>
+					</var>
+					<var>W7
+						<value>20u</value>
+					</var>
+					<var>L7
+						<value>400n</value>
+					</var>
+					<var>W8
+						<value>1.926u</value>
+					</var>
+					<var>L8
+						<value>1u</value>
+					</var>
+					<var>vin
+						<value>100m</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>/M0/D
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
