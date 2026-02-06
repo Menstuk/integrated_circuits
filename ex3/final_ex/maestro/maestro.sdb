@@ -5,7 +5,74 @@
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
-		<sharedvarinfo></sharedvarinfo>
+		<sharedvarinfo>
+			<var>wireopt
+				<tags></tags>
+			</var>
+			<var>CL
+				<tags></tags>
+			</var>
+			<var>W1
+				<tags></tags>
+			</var>
+			<var>L1
+				<tags></tags>
+			</var>
+			<var>W2
+				<tags></tags>
+			</var>
+			<var>L2
+				<tags></tags>
+			</var>
+			<var>W3
+				<tags></tags>
+			</var>
+			<var>L3
+				<tags></tags>
+			</var>
+			<var>W4
+				<tags></tags>
+			</var>
+			<var>L4
+				<tags></tags>
+			</var>
+			<var>L0
+				<tags></tags>
+			</var>
+			<var>W0
+				<tags></tags>
+			</var>
+			<var>L5
+				<tags></tags>
+			</var>
+			<var>W5
+				<tags></tags>
+			</var>
+			<var>L6
+				<tags></tags>
+			</var>
+			<var>W6
+				<tags></tags>
+			</var>
+			<var>CS
+				<tags></tags>
+			</var>
+			<var>W7
+				<tags></tags>
+			</var>
+			<var>L7
+				<tags></tags>
+			</var>
+			<var>W8
+				<tags></tags>
+			</var>
+			<var>L8
+				<tags></tags>
+			</var>
+			<var>vin
+				<tags></tags>
+			</var>
+		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
 			<test>ex3_final_ex_1
@@ -31,78 +98,74 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>wireopt
+					<var enabled="1">wireopt
 						<value>211</value>
 					</var>
-					<var>CL
+					<var enabled="1">CL
 						<value>8p</value>
 					</var>
-					<var>W1
-						<value>600u</value>
+					<var enabled="1">W1
+						<value>100u</value>
 					</var>
-					<var>L1
+					<var enabled="1">L1
+						<value>5u</value>
+					</var>
+					<var enabled="1">W2
+						<value>7.487u</value>
+					</var>
+					<var enabled="1">L2
+						<value>400n</value>
+					</var>
+					<var enabled="1">W3
+						<value>168.969u</value>
+					</var>
+					<var enabled="1">L3
 						<value>1u</value>
 					</var>
-					<var>W2
-						<value>15.468u</value>
-					</var>
-					<var>L2
-						<value>400n</value>
-					</var>
-					<var>W3
-						<value>62.899u</value>
-					</var>
-					<var>L3
-						<value>400n</value>
-					</var>
-					<var>W4
+					<var enabled="1">W4
 						<value>155.616u</value>
 					</var>
-					<var>L4
+					<var enabled="1">L4
 						<value>1u</value>
 					</var>
-					<var>L0
+					<var enabled="1">L0
 						<value>400n</value>
 					</var>
-					<var>W0
-						<value>474.43u</value>
+					<var enabled="1">W0
+						<value>152.837u</value>
 					</var>
-					<var>L5
-						<value>500n</value>
-					</var>
-					<var>W5
-						<value>31.87u</value>
-					</var>
-					<var>L6
-						<value>2u</value>
-					</var>
-					<var>W6
-						<value>40u</value>
-					</var>
-					<var>CS
-						<value>500p</value>
-					</var>
-					<var>W7
-						<value>20u</value>
-					</var>
-					<var>L7
+					<var enabled="1">L5
 						<value>400n</value>
 					</var>
-					<var>W8
-						<value>1.926u</value>
+					<var enabled="1">W5
+						<value>8.5145u</value>
 					</var>
-					<var>L8
+					<var enabled="1">L6
+						<value>5u</value>
+					</var>
+					<var enabled="1">W6
+						<value>200u</value>
+					</var>
+					<var enabled="1">CS
+						<value>50p</value>
+					</var>
+					<var enabled="1">W7
+						<value>50u</value>
+					</var>
+					<var enabled="1">L7
+						<value>400n</value>
+					</var>
+					<var enabled="1">W8
+						<value>4.566689u</value>
+					</var>
+					<var enabled="1">L8
 						<value>1u</value>
 					</var>
-					<var>vin
-						<value>100m</value>
+					<var enabled="1">vin
+						<value>650m</value>
 					</var>
 				</vars>
-				<outputs>
-					<output>/M0/D
-						<evalType>point</evalType>
-					</output>
-				</outputs>
+				<outputs></outputs>
 			</test>
 		</tests>
 		<extensions>
