@@ -105,13 +105,13 @@
 						<value>8p</value>
 					</var>
 					<var enabled="1">W1
-						<value>100u</value>
+						<value>1m</value>
 					</var>
 					<var enabled="1">L1
-						<value>5u</value>
+						<value>600n</value>
 					</var>
 					<var enabled="1">W2
-						<value>7.487u</value>
+						<value>8.25543u</value>
 					</var>
 					<var enabled="1">L2
 						<value>400n</value>
@@ -123,7 +123,7 @@
 						<value>1u</value>
 					</var>
 					<var enabled="1">W4
-						<value>155.616u</value>
+						<value>236.771u</value>
 					</var>
 					<var enabled="1">L4
 						<value>1u</value>
@@ -132,22 +132,22 @@
 						<value>400n</value>
 					</var>
 					<var enabled="1">W0
-						<value>152.837u</value>
+						<value>135.273u</value>
 					</var>
 					<var enabled="1">L5
 						<value>400n</value>
 					</var>
 					<var enabled="1">W5
-						<value>8.5145u</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">L6
-						<value>5u</value>
+						<value>400n</value>
 					</var>
 					<var enabled="1">W6
-						<value>200u</value>
+						<value>7.91769u</value>
 					</var>
 					<var enabled="1">CS
-						<value>50p</value>
+						<value>1p</value>
 					</var>
 					<var enabled="1">W7
 						<value>50u</value>
@@ -156,13 +156,13 @@
 						<value>400n</value>
 					</var>
 					<var enabled="1">W8
-						<value>4.566689u</value>
+						<value>4.54797u</value>
 					</var>
 					<var enabled="1">L8
 						<value>1u</value>
 					</var>
 					<var enabled="1">vin
-						<value>650m</value>
+						<value>1</value>
 					</var>
 				</vars>
 				<outputs></outputs>
