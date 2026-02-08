@@ -111,7 +111,7 @@
 						<value>600n</value>
 					</var>
 					<var enabled="1">W2
-						<value>8.25543u</value>
+						<value>8.57u</value>
 					</var>
 					<var enabled="1">L2
 						<value>400n</value>
@@ -132,22 +132,22 @@
 						<value>400n</value>
 					</var>
 					<var enabled="1">W0
-						<value>135.273u</value>
+						<value>147.36u</value>
 					</var>
 					<var enabled="1">L5
-						<value>400n</value>
+						<value>2u</value>
 					</var>
 					<var enabled="1">W5
-						<value>1u</value>
+						<value>5u</value>
 					</var>
 					<var enabled="1">L6
-						<value>400n</value>
+						<value>2u</value>
 					</var>
 					<var enabled="1">W6
-						<value>7.91769u</value>
+						<value>203u</value>
 					</var>
 					<var enabled="1">CS
-						<value>1p</value>
+						<value>50p</value>
 					</var>
 					<var enabled="1">W7
 						<value>50u</value>
@@ -162,6 +162,9 @@
 						<value>1u</value>
 					</var>
 					<var enabled="1">vin
+						<value>1</value>
+					</var>
+					<var>Nfing
 						<value>1</value>
 					</var>
 				</vars>
@@ -181,7 +184,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value></value>
+				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -193,7 +196,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
