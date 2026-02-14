@@ -114,7 +114,7 @@
 						<value>600n</value>
 					</var>
 					<var>W2
-						<value>8.57u</value>
+						<value>8.2u</value>
 					</var>
 					<var>L2
 						<value>400n</value>
@@ -174,7 +174,7 @@
 						<value>200n</value>
 					</var>
 					<var>W_N1
-						<value>30u</value>
+						<value>10u</value>
 					</var>
 					<var>L_N2
 						<value>3u</value>
@@ -186,7 +186,7 @@
 						<value>3u</value>
 					</var>
 					<var>W_N3
-						<value>562.232u</value>
+						<value>92.8u</value>
 					</var>
 					<var>L_N4
 						<value>3u</value>
@@ -204,19 +204,64 @@
 						<value>1u</value>
 					</var>
 					<var>W_N6
-						<value>99.2831u</value>
+						<value>15.7125u</value>
 					</var>
 					<var>L_N7
-						<value>1u</value>
+						<value>4u</value>
 					</var>
 					<var>W_N7
-						<value>5.38628u</value>
+						<value>3.087u</value>
 					</var>
-					<var>Vb2
-						<value>1.4</value>
+					<var>L_P1
+						<value>1u</value>
 					</var>
-					<var>Vs1
-						<value>1.25</value>
+					<var>W_P1
+						<value>483.413n</value>
+					</var>
+					<var>L_P2
+						<value>200n</value>
+					</var>
+					<var>W_P2
+						<value>1.18947u</value>
+					</var>
+					<var>L_P3
+						<value>2u</value>
+					</var>
+					<var>W_P3
+						<value>10u</value>
+					</var>
+					<var>L_P4
+						<value>2u</value>
+					</var>
+					<var>W_P4
+						<value>2.4026u</value>
+					</var>
+					<var>L_P5
+						<value>2u</value>
+					</var>
+					<var>W_P5
+						<value>17.225u</value>
+					</var>
+					<var>L_P6
+						<value>200n</value>
+					</var>
+					<var>W_P6
+						<value>0.4u</value>
+					</var>
+					<var>L_P7
+						<value>6u</value>
+					</var>
+					<var>W_P7
+						<value>387.573n</value>
+					</var>
+					<var>Vd11
+						<value>930m</value>
+					</var>
+					<var>Vs11
+						<value>1.2</value>
+					</var>
+					<var>Vs33
+						<value>1.7</value>
 					</var>
 				</vars>
 				<outputs></outputs>
