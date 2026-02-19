@@ -5,7 +5,62 @@
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
-		<sharedvarinfo></sharedvarinfo>
+		<sharedvarinfo>
+			<var>wireopt
+				<tags></tags>
+			</var>
+			<var>L6
+				<tags></tags>
+			</var>
+			<var>W6
+				<tags></tags>
+			</var>
+			<var>L_LOAD
+				<tags></tags>
+			</var>
+			<var>W_LOAD
+				<tags></tags>
+			</var>
+			<var>W_SOURCE
+				<tags></tags>
+			</var>
+			<var>L_SOURCE
+				<tags></tags>
+			</var>
+			<var>L_IN
+				<tags></tags>
+			</var>
+			<var>W_IN
+				<tags></tags>
+			</var>
+			<var>L4
+				<tags></tags>
+			</var>
+			<var>W4
+				<tags></tags>
+			</var>
+			<var>FACTOR
+				<tags></tags>
+			</var>
+			<var>L4A
+				<tags></tags>
+			</var>
+			<var>W4A
+				<tags></tags>
+			</var>
+			<var>PHASE
+				<tags></tags>
+			</var>
+			<var>W_SPECIAL
+				<tags></tags>
+			</var>
+			<var>R
+				<tags></tags>
+			</var>
+			<var>Cap
+				<tags></tags>
+			</var>
+		</sharedvarinfo>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -39,53 +94,65 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>wireopt
+					<var enabled="1">wireopt
 						<value>211</value>
 					</var>
-					<var>L6
+					<var enabled="1">L6
 						<value>200n</value>
 					</var>
-					<var>W6
-						<value>333.4u</value>
+					<var enabled="1">W6
+						<value>10u:5u:200u</value>
 					</var>
-					<var>L_LOAD
+					<var enabled="1">L_LOAD
 						<value>1u</value>
 					</var>
-					<var>W_LOAD
-						<value>258.7u</value>
+					<var enabled="1">W_LOAD
+						<value>36.8u</value>
 					</var>
-					<var>W_SOURCE
-						<value>11.9u</value>
+					<var enabled="1">W_SOURCE
+						<value>11.6u</value>
 					</var>
-					<var>L_SOURCE
+					<var enabled="1">L_SOURCE
 						<value>2u</value>
 					</var>
-					<var>L_IN
+					<var enabled="1">L_IN
 						<value>1u</value>
 					</var>
-					<var>W_IN
-						<value>180u</value>
+					<var enabled="1">W_IN
+						<value>171.7u</value>
 					</var>
-					<var>L4
-						<value>3u</value>
-					</var>
-					<var>W4
-						<value>12.9u</value>
-					</var>
-					<var>FACTOR
-						<value>3</value>
-					</var>
-					<var>L4A
+					<var enabled="1">L4
 						<value>500n</value>
 					</var>
-					<var>W4A
+					<var enabled="1">W4
+						<value>13.5u</value>
+					</var>
+					<var enabled="1">FACTOR
+						<value>1</value>
+					</var>
+					<var enabled="1">L4A
+						<value>500n</value>
+					</var>
+					<var enabled="1">W4A
 						<value>4.7u</value>
 					</var>
-					<var>PHASE
-						<value>180</value>
+					<var enabled="1">W_SPECIAL
+						<value>0.793u</value>
 					</var>
-					<var>W_SPECIAL
-						<value>793n</value>
+					<var enabled="1">R
+						<value>1k</value>
+					</var>
+					<var enabled="1">Cap
+						<value>1p</value>
+					</var>
+					<var>V_trial
+						<value>300m</value>
+					</var>
+					<var>L2
+						<value>1u</value>
+					</var>
+					<var>W2
+						<value>165.3u</value>
 					</var>
 				</vars>
 				<outputs>
@@ -93,9 +160,6 @@
 						<evalType>point</evalType>
 					</output>
 					<output>/net16
-						<evalType>point</evalType>
-					</output>
-					<output>/net11
 						<evalType>point</evalType>
 					</output>
 				</outputs>

@@ -5,18 +5,80 @@
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
-		<sharedvarinfo></sharedvarinfo>
-		<extensions>
-			<extension>Parasitics
-				<callback>_parSetupDBExtensionCB</callback>
-				<iconvalue></iconvalue>
-				<icontype></icontype>
-			</extension>
-		</extensions>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<sharedvarinfo>
+			<var>wireopt
+				<tags></tags>
+			</var>
+			<var>CL
+				<tags></tags>
+			</var>
+			<var>W1
+				<tags></tags>
+			</var>
+			<var>L1
+				<tags></tags>
+			</var>
+			<var>W2
+				<tags></tags>
+			</var>
+			<var>L2
+				<tags></tags>
+			</var>
+			<var>W3
+				<tags></tags>
+			</var>
+			<var>L3
+				<tags></tags>
+			</var>
+			<var>W4
+				<tags></tags>
+			</var>
+			<var>L4
+				<tags></tags>
+			</var>
+			<var>L0
+				<tags></tags>
+			</var>
+			<var>W0
+				<tags></tags>
+			</var>
+			<var>L5
+				<tags></tags>
+			</var>
+			<var>W5
+				<tags></tags>
+			</var>
+			<var>L6
+				<tags></tags>
+			</var>
+			<var>W6
+				<tags></tags>
+			</var>
+			<var>CS
+				<tags></tags>
+			</var>
+			<var>W7
+				<tags></tags>
+			</var>
+			<var>L7
+				<tags></tags>
+			</var>
+			<var>W8
+				<tags></tags>
+			</var>
+			<var>L8
+				<tags></tags>
+			</var>
+			<var>vin
+				<tags></tags>
+			</var>
+			<var>Nfing
+				<tags></tags>
+			</var>
+		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">ex3_final_ex_1
+			<test>ex3_final_ex_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -25,54 +87,149 @@
 					<option>lib
 						<value>ex3</value>
 					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
 					<option>sim
 						<value>spectre</value>
 					</option>
 					<option>view
 						<value>schematic</value>
 					</option>
-					<option>path
-						<value>$AXL_SETUPDB_DIR</value>
-					</option>
 					<option>state
 						<value>active</value>
 					</option>
 				</tooloptions>
 				<vars>
-					<var>wireopt
+					<var enabled="1">wireopt
 						<value>211</value>
-					</var>
-					<var>VP
-						<value>1.1427</value>
-					</var>
-					<var>N_mult
-						<value>60</value>
-					</var>
-					<var>WN
-						<value>400n</value>
-					</var>
-					<var>LN
-						<value>400n</value>
-					</var>
-					<var>LP
-						<value>400n</value>
-					</var>
-					<var>WP
-						<value>400n</value>
-					</var>
-					<var>WN_BIAS
-						<value>800n</value>
 					</var>
 					<var>CL
 						<value>8p</value>
 					</var>
-					<var>V_ERR
-						<value>980m</value>
+					<var>W1
+						<value>1m</value>
+					</var>
+					<var>L1
+						<value>600n</value>
+					</var>
+					<var>W2
+						<value>8.57u</value>
+					</var>
+					<var>L2
+						<value>400n</value>
+					</var>
+					<var>W3
+						<value>168.969u</value>
+					</var>
+					<var>L3
+						<value>1u</value>
+					</var>
+					<var>W4
+						<value>236.771u</value>
+					</var>
+					<var>L4
+						<value>1u</value>
+					</var>
+					<var>L0
+						<value>400n</value>
+					</var>
+					<var>W0
+						<value>147.36u</value>
+					</var>
+					<var>L5
+						<value>2u</value>
+					</var>
+					<var>W5
+						<value>5u</value>
+					</var>
+					<var>L6
+						<value>2u</value>
+					</var>
+					<var>W6
+						<value>203u</value>
+					</var>
+					<var>CS
+						<value>50p</value>
+					</var>
+					<var>W7
+						<value>50u</value>
+					</var>
+					<var>L7
+						<value>400n</value>
+					</var>
+					<var>W8
+						<value>4.54797u</value>
+					</var>
+					<var>L8
+						<value>1u</value>
+					</var>
+					<var>vin
+						<value>1</value>
+					</var>
+					<var>Nfing
+						<value>1</value>
+					</var>
+					<var>L_N1
+						<value>200n</value>
+					</var>
+					<var>W_N1
+						<value>30u</value>
+					</var>
+					<var>L_N2
+						<value>3u</value>
+					</var>
+					<var>W_N2
+						<value>30u</value>
+					</var>
+					<var>L_N3
+						<value>3u</value>
+					</var>
+					<var>W_N3
+						<value>562.232u</value>
+					</var>
+					<var>L_N4
+						<value>3u</value>
+					</var>
+					<var>W_N4
+						<value>3.08435u</value>
+					</var>
+					<var>L_N5
+						<value>3u</value>
+					</var>
+					<var>W_N5
+						<value>28.4642u</value>
+					</var>
+					<var>L_N6
+						<value>1u</value>
+					</var>
+					<var>W_N6
+						<value>99.2831u</value>
+					</var>
+					<var>L_N7
+						<value>1u</value>
+					</var>
+					<var>W_N7
+						<value>5.38628u</value>
+					</var>
+					<var>Vb2
+						<value>1.4</value>
+					</var>
+					<var>Vs1
+						<value>1.25</value>
 					</var>
 				</vars>
+				<outputs></outputs>
 			</test>
 		</tests>
-		<disabledtests></disabledtests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
 			<test netlist="0" netlistscope="all">ex3_final_ex_1</test>
 		</checksasserts>
