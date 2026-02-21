@@ -177,6 +177,9 @@
 			<var>Rin
 				<tags></tags>
 			</var>
+			<var>WBIASN
+				<tags></tags>
+			</var>
 		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
@@ -222,34 +225,34 @@
 						<value>200n</value>
 					</var>
 					<var enabled="1">W2
-						<value>38.4u</value>
+						<value>41.2u</value>
 					</var>
 					<var enabled="1">L2
-						<value>2.3u</value>
+						<value>2u</value>
 					</var>
 					<var enabled="1">W3
-						<value>30u</value>
+						<value>51u</value>
 					</var>
 					<var enabled="1">L3
-						<value>200n</value>
+						<value>402n</value>
 					</var>
 					<var enabled="1">W4
-						<value>103.8u</value>
+						<value>296.5u</value>
 					</var>
 					<var enabled="1">L4
-						<value>200n</value>
+						<value>500n</value>
 					</var>
 					<var enabled="1">L0
 						<value>1u</value>
 					</var>
 					<var enabled="1">W0
-						<value>638u</value>
+						<value>643.9u</value>
 					</var>
 					<var enabled="1">L5
 						<value>2u</value>
 					</var>
 					<var enabled="1">W5
-						<value>218.4u</value>
+						<value>421.1u</value>
 					</var>
 					<var enabled="1">L6
 						<value>2u</value>
@@ -261,19 +264,19 @@
 						<value>50p</value>
 					</var>
 					<var enabled="1">W7
-						<value>200u</value>
+						<value>110u</value>
 					</var>
 					<var enabled="1">L7
-						<value>200n</value>
+						<value>2u</value>
 					</var>
 					<var enabled="1">W8
-						<value>69.8u</value>
+						<value>4.9u</value>
 					</var>
 					<var enabled="1">L8
-						<value>1.4u</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">vin
-						<value>650m</value>
+						<value>300m</value>
 					</var>
 					<var enabled="1">Nfing
 						<value>1</value>
@@ -374,7 +377,7 @@
 					<var enabled="1">Rin
 						<value>50M</value>
 					</var>
-					<var>WBIASN
+					<var enabled="1">WBIASN
 						<value>3u</value>
 					</var>
 				</vars>
@@ -394,7 +397,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value></value>
+				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -406,7 +409,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -417,10 +420,16 @@
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -433,6 +442,14 @@
 		<incrementalsimulationoptions>
 			<incrementalSimulation>0</incrementalSimulation>
 		</incrementalsimulationoptions>
+		<resultsviews>
+			<resultsview>outputSetup</resultsview>
+		</resultsviews>
+		<useresultsviewfilters>
+			<useresultsviewfilter>outputSetup
+				<value></value>
+			</useresultsviewfilter>
+		</useresultsviewfilters>
 	</active>
 	<history>History
 	</history>
