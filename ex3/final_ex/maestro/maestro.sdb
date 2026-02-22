@@ -380,6 +380,18 @@
 					<var enabled="1">WBIASN
 						<value>3u</value>
 					</var>
+					<var>LB1
+						<value>4u</value>
+					</var>
+					<var>WB1
+						<value>5.6u</value>
+					</var>
+					<var>WB2
+						<value>42u</value>
+					</var>
+					<var>WB3
+						<value>4u</value>
+					</var>
 				</vars>
 				<outputs></outputs>
 			</test>
