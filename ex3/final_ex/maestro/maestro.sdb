@@ -180,6 +180,18 @@
 			<var>WBIASN
 				<tags></tags>
 			</var>
+			<var>LB1
+				<tags></tags>
+			</var>
+			<var>WB1
+				<tags></tags>
+			</var>
+			<var>WB2
+				<tags></tags>
+			</var>
+			<var>WB3
+				<tags></tags>
+			</var>
 		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
@@ -276,7 +288,7 @@
 						<value>1u</value>
 					</var>
 					<var enabled="1">vin
-						<value>300m</value>
+						<value>0.31</value>
 					</var>
 					<var enabled="1">Nfing
 						<value>1</value>
@@ -377,20 +389,23 @@
 					<var enabled="1">Rin
 						<value>50M</value>
 					</var>
-					<var enabled="1">WBIASN
+					<var>WBIASN
 						<value>3u</value>
 					</var>
 					<var>LB1
 						<value>4u</value>
 					</var>
 					<var>WB1
-						<value>37.7u</value>
+						<value>7.6u</value>
 					</var>
 					<var>WB2
 						<value>42u</value>
 					</var>
 					<var>WB3
-						<value>5.6u</value>
+						<value>4u</value>
+					</var>
+					<var>res
+						<value>1k 10k 100k 500k 1M 10M 100M 500M</value>
 					</var>
 				</vars>
 				<outputs></outputs>
