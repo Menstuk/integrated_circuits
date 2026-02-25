@@ -195,6 +195,24 @@
 			<var>res
 				<tags></tags>
 			</var>
+			<var>LNL
+				<tags></tags>
+			</var>
+			<var>LPL
+				<tags></tags>
+			</var>
+			<var>WNL
+				<tags></tags>
+			</var>
+			<var>WPL
+				<tags></tags>
+			</var>
+			<var>W82
+				<tags></tags>
+			</var>
+			<var>WB4
+				<tags></tags>
+			</var>
 		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
@@ -233,11 +251,14 @@
 					<var enabled="1">CL
 						<value>8p</value>
 					</var>
+					<var>MULT1
+						<value>4</value>
+					</var>
 					<var enabled="1">W1
-						<value>353.4u</value>
+						<value>500u</value>
 					</var>
 					<var enabled="1">L1
-						<value>200n</value>
+						<value>1u</value>
 					</var>
 					<var enabled="1">W2
 						<value>41.9u</value>
@@ -246,7 +267,7 @@
 						<value>2u</value>
 					</var>
 					<var enabled="1">W3
-						<value>51u</value>
+						<value>48.5u</value>
 					</var>
 					<var enabled="1">L3
 						<value>402n</value>
@@ -279,13 +300,13 @@
 						<value>50p</value>
 					</var>
 					<var enabled="1">W7
-						<value>110u</value>
+						<value>55u</value>
 					</var>
 					<var enabled="1">L7
 						<value>2u</value>
 					</var>
 					<var enabled="1">W8
-						<value>4.9u</value>
+						<value>7.3u</value>
 					</var>
 					<var enabled="1">L8
 						<value>1u</value>
@@ -427,6 +448,12 @@
 					</var>
 					<var>WB4
 						<value>300n</value>
+					</var>
+					<var>VCM
+						<value>1</value>
+					</var>
+					<var>MULT
+						<value>1</value>
 					</var>
 				</vars>
 				<outputs></outputs>
