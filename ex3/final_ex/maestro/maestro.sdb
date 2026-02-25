@@ -192,6 +192,9 @@
 			<var>WB3
 				<tags></tags>
 			</var>
+			<var>res
+				<tags></tags>
+			</var>
 		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
@@ -225,19 +228,19 @@
 						<value>2u</value>
 					</var>
 					<var enabled="1">WB
-						<value>200n</value>
+						<value>204n</value>
 					</var>
 					<var enabled="1">CL
 						<value>8p</value>
 					</var>
 					<var enabled="1">W1
-						<value>380u</value>
+						<value>353.4u</value>
 					</var>
 					<var enabled="1">L1
 						<value>200n</value>
 					</var>
 					<var enabled="1">W2
-						<value>41.2u</value>
+						<value>41.9u</value>
 					</var>
 					<var enabled="1">L2
 						<value>2u</value>
@@ -249,10 +252,10 @@
 						<value>402n</value>
 					</var>
 					<var enabled="1">W4
-						<value>296.5u</value>
+						<value>310u</value>
 					</var>
 					<var enabled="1">L4
-						<value>500n</value>
+						<value>530n</value>
 					</var>
 					<var enabled="1">L0
 						<value>1u</value>
@@ -264,7 +267,7 @@
 						<value>2u</value>
 					</var>
 					<var enabled="1">W5
-						<value>421.1u</value>
+						<value>435u</value>
 					</var>
 					<var enabled="1">L6
 						<value>2u</value>
@@ -288,7 +291,7 @@
 						<value>1u</value>
 					</var>
 					<var enabled="1">vin
-						<value>0.31</value>
+						<value>268m</value>
 					</var>
 					<var enabled="1">Nfing
 						<value>1</value>
@@ -303,7 +306,7 @@
 						<value>3u</value>
 					</var>
 					<var enabled="1">W_N2
-						<value>30u</value>
+						<value>29.7u</value>
 					</var>
 					<var enabled="1">L_N3
 						<value>3u</value>
@@ -405,7 +408,25 @@
 						<value>4u</value>
 					</var>
 					<var>res
-						<value>1k 10k 100k 500k 1M 10M 100M 500M</value>
+						<value>214.3M</value>
+					</var>
+					<var>LNL
+						<value>2u</value>
+					</var>
+					<var>LPL
+						<value>2u</value>
+					</var>
+					<var>WNL
+						<value>59.2u</value>
+					</var>
+					<var>WPL
+						<value>8u</value>
+					</var>
+					<var>W82
+						<value>142u</value>
+					</var>
+					<var>WB4
+						<value>300n</value>
 					</var>
 				</vars>
 				<outputs></outputs>
