@@ -195,6 +195,9 @@
 			<var>res
 				<tags></tags>
 			</var>
+			<var>VCM
+				<tags></tags>
+			</var>
 		</sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
